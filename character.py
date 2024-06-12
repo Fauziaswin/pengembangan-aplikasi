@@ -13,7 +13,7 @@ class Character:
         target.bar_kesehatan.update()
         print(f"{self.nama} menyerang {target.nama} dengan {self.senjata.nama}, menyebabkan {self.senjata.kekuatan} kerusakan")
         
-class Pahlawan(Character):
+class pahlawan(Character):
     def __init__(self, nama: str, kesehatan: int, senjata) -> None:
         super().__init__(nama, kesehatan, senjata)
         self.default_senjata = self.senjata
